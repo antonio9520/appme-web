@@ -1,0 +1,15 @@
+.contenedor-main {
+  background-color: #f2f4f8;
+  margin-left: 200px;
+  padding-top: 55px;
+  height: 100vh;
+  transition: 0.5s all ease-in-out;
+}
+
+.contenedor-main-mini {
+  background-color: #f2f4f8;
+  margin-left: 55px;
+  padding-top: 55px;
+  height: 100vh;
+  transition: 0.5s all ease-in-out;
+}

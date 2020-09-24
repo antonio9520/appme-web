@@ -1,0 +1,29 @@
+.contenedor-header {
+  border-bottom: 1px solid gray;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 200px;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  transition: 0.5s all ease-in-out;
+}
+.contenedor-header-mini {
+  border-bottom: 1px solid gray;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 55px;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  transition: 0.5s all ease-in-out;
+}
+
+.btn-open-sidebar {
+  border: none;
+  outline: none;
+  height: 30px;
+  background: rgb(90, 90, 207);
+}
