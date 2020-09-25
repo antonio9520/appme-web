@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Sidebar.css";
 import { List, ListItem } from "@material-ui/core";
 import { Dashboard } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 import logo from "../../../resources/img/Logotype-AppMe-White.png";
 
 const Sidebar = (props) => {
@@ -19,82 +20,130 @@ const Sidebar = (props) => {
             onClick={() => setActive("dashboard")}
             className={active === "dashboard" ? "li-active" : "listitem"}
           >
-            {/* <Link to="/" className="link link-sidebar"> */}
-            <Dashboard className="icon-sidebar" />
-            <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
-              Dashboard
-            </p>
-            {/* </Link> */}
+            <Link to="/" className="link link-sidebar">
+              <div className="cont-icon-sidebar">
+                <Dashboard className="icon-sidebar" />
+              </div>
+              <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
+                Dashboard
+              </p>
+            </Link>
           </ListItem>
           <ListItem
             button
-            onClick={() => setActive("ofertas")}
-            className={active === "ofertas" ? "li-active" : "listitem"}
+            onClick={() => setActive("pedidos")}
+            className={active === "pedidos" ? "li-active" : "listitem"}
           >
-            {/* <Link to="/ofertas-laborales" className="link link-sidebar"> */}
-            <Dashboard className="icon-sidebar" />
-            <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>Pedidos</p>
-            {/* </Link> */}
+            <Link to="/pedidos" className="link link-sidebar">
+              <div className="cont-icon-sidebar">
+                <Dashboard className="icon-sidebar" />
+              </div>
+              <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
+                Pedidos
+              </p>
+            </Link>
           </ListItem>
           <ListItem
             button
-            onClick={() => setActive("estudios")}
-            className={active === "estudios" ? "li-active" : "listitem"}
+            onClick={() => setActive("productos")}
+            className={active === "productos" ? "li-active" : "listitem"}
           >
-            {/* <Link to="/estudios" className="link link-sidebar"> */}
-            <Dashboard className="icon-sidebar" />
-            <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
-              Productos
-            </p>
-            {/* </Link> */}
+            <Link to="/productos" className="link link-sidebar">
+              <div className="cont-icon-sidebar">
+                <Dashboard className="icon-sidebar" />
+              </div>
+              <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
+                Productos
+              </p>
+            </Link>
           </ListItem>
           <ListItem
             button
-            onClick={() => setActive("certificados")}
-            className={active === "certificados" ? "li-active" : "listitem"}
+            onClick={() => setActive("promociones")}
+            className={active === "promociones" ? "li-active" : "listitem"}
           >
-            {/* <Link to="/certificaciones" className="link link-sidebar"> */}
-            <Dashboard className="icon-sidebar" />
-            <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
-              Promociones
-            </p>
-            {/* </Link> */}
+            <Link to="/promociones" className="link link-sidebar">
+              <div className="cont-icon-sidebar">
+                <Dashboard className="icon-sidebar" />
+              </div>
+              <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
+                Promociones
+              </p>
+            </Link>
           </ListItem>
           <ListItem
             button
-            onClick={() => setActive("adn-sap")}
-            className={active === "adn-sap" ? "li-active" : "listitem"}
+            onClick={() => setActive("encuestas")}
+            className={active === "encuestas" ? "li-active" : "listitem"}
           >
-            {/* <Link to="/sap-adn" className="link link-sidebar"> */}
-            <Dashboard className="icon-sidebar" />
-            <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
-              Encuestas
-            </p>
-            {/* </Link> */}
+            <Link to="/encuestas" className="link link-sidebar">
+              <div className="cont-icon-sidebar">
+                <Dashboard className="icon-sidebar" />
+              </div>
+              <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
+                Encuestas
+              </p>
+            </Link>
           </ListItem>
           <ListItem
             button
-            onClick={() => setActive("trabajos")}
-            className={active === "trabajos" ? "li-active" : "listitem"}
+            onClick={() => setActive("usuarios")}
+            className={active === "usuarios" ? "li-active" : "listitem"}
           >
-            {/* <Link to="/trabajos" className="link link-sidebar"> */}
-            <Dashboard className="icon-sidebar" />
-            <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
-              Usuarios
-            </p>
-            {/* </Link> */}
+            <Link to="/usuarios" className="link link-sidebar">
+              <div className="cont-icon-sidebar">
+                <Dashboard className="icon-sidebar" />
+              </div>
+              <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
+                Usuarios
+              </p>
+            </Link>
           </ListItem>
           <ListItem
             button
-            onClick={() => setActive("trabajos")}
-            className={active === "trabajos" ? "li-active" : "listitem"}
+            onClick={() => setActive("notificaciones")}
+            className={active === "notificaciones" ? "li-active" : "listitem"}
           >
-            {/* <Link to="/trabajos" className="link link-sidebar"> */}
-            <Dashboard className="icon-sidebar" />
-            <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
-              Notificaciones
-            </p>
-            {/* </Link> */}
+            <Link to="/notificaciones" className="link link-sidebar">
+              <div className="cont-icon-sidebar">
+                <Dashboard className="icon-sidebar" />
+              </div>
+              <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
+                Notificaciones
+              </p>
+            </Link>
+          </ListItem>
+        </List>
+      </div>
+      <div className="body-bottom">
+        <List>
+          <ListItem
+            button
+            onClick={() => setActive("admin")}
+            className={active === "admin" ? "li-active" : "listitem"}
+          >
+            <Link to="/admin" className="link link-sidebar">
+              <div className="cont-icon-sidebar">
+                <Dashboard className="icon-sidebar" />
+              </div>
+              <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
+                Administrador
+              </p>
+            </Link>
+          </ListItem>
+          <ListItem
+            button
+            onClick={() => setActive("logout")}
+            className={active === "logout" ? "li-active" : "listitem"}
+          >
+            <Link to="/logout" className="link link-sidebar">
+              <div className="cont-icon-sidebar">
+                <Dashboard className="icon-sidebar" />
+              </div>
+              <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
+                Logout
+              </p>
+            </Link>
           </ListItem>
         </List>
       </div>
