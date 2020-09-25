@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
-import { List, ListItem } from "@material-ui/core";
+import { List, ListItem, Button } from "@material-ui/core";
 import { Dashboard } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 import logo from "../../../resources/img/Logotype-AppMe-White.png";
@@ -13,7 +13,7 @@ const Sidebar = (props) => {
       <div className="header-sidebar">
         <img src={logo} alt="logo" className="logo-sidebar" />
       </div>
-      <div className="sidebar-body">
+      <div className={open ? "sidebar-body-mini" : "sidebar-body"}>
         <List>
           <ListItem
             button
@@ -22,7 +22,13 @@ const Sidebar = (props) => {
           >
             <Link to="/" className="link link-sidebar">
               <div className="cont-icon-sidebar">
-                <Dashboard className="icon-sidebar" />
+                <Dashboard
+                  className={
+                    active === "dashboard"
+                      ? "icon-sidebar-active"
+                      : "icon-sidebar"
+                  }
+                />
               </div>
               <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
                 Dashboard
@@ -36,7 +42,13 @@ const Sidebar = (props) => {
           >
             <Link to="/pedidos" className="link link-sidebar">
               <div className="cont-icon-sidebar">
-                <Dashboard className="icon-sidebar" />
+                <Dashboard
+                  className={
+                    active === "pedidos"
+                      ? "icon-sidebar-active"
+                      : "icon-sidebar"
+                  }
+                />
               </div>
               <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
                 Pedidos
@@ -50,7 +62,13 @@ const Sidebar = (props) => {
           >
             <Link to="/productos" className="link link-sidebar">
               <div className="cont-icon-sidebar">
-                <Dashboard className="icon-sidebar" />
+                <Dashboard
+                  className={
+                    active === "productos"
+                      ? "icon-sidebar-active"
+                      : "icon-sidebar"
+                  }
+                />
               </div>
               <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
                 Productos
@@ -64,7 +82,13 @@ const Sidebar = (props) => {
           >
             <Link to="/promociones" className="link link-sidebar">
               <div className="cont-icon-sidebar">
-                <Dashboard className="icon-sidebar" />
+                <Dashboard
+                  className={
+                    active === "promociones"
+                      ? "icon-sidebar-active"
+                      : "icon-sidebar"
+                  }
+                />
               </div>
               <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
                 Promociones
@@ -78,7 +102,13 @@ const Sidebar = (props) => {
           >
             <Link to="/encuestas" className="link link-sidebar">
               <div className="cont-icon-sidebar">
-                <Dashboard className="icon-sidebar" />
+                <Dashboard
+                  className={
+                    active === "encuestas"
+                      ? "icon-sidebar-active"
+                      : "icon-sidebar"
+                  }
+                />
               </div>
               <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
                 Encuestas
@@ -92,7 +122,13 @@ const Sidebar = (props) => {
           >
             <Link to="/usuarios" className="link link-sidebar">
               <div className="cont-icon-sidebar">
-                <Dashboard className="icon-sidebar" />
+                <Dashboard
+                  className={
+                    active === "usuarios"
+                      ? "icon-sidebar-active"
+                      : "icon-sidebar"
+                  }
+                />
               </div>
               <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
                 Usuarios
@@ -106,7 +142,13 @@ const Sidebar = (props) => {
           >
             <Link to="/notificaciones" className="link link-sidebar">
               <div className="cont-icon-sidebar">
-                <Dashboard className="icon-sidebar" />
+                <Dashboard
+                  className={
+                    active === "notificaciones"
+                      ? "icon-sidebar-active"
+                      : "icon-sidebar"
+                  }
+                />
               </div>
               <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
                 Notificaciones

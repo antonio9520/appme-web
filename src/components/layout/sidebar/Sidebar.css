@@ -18,10 +18,13 @@
   transition: 0.5s all ease-in-out;
   overflow: hidden;
 }
+.sidebar-body-mini {
+  padding-right: 10px;
+}
 
 .contenedor-sidebar-mini img {
-  width: 50px;
-  height: 25px;
+  width: 45px;
+  height: 23px;
   transition: 0.5s all ease-in-out;
 }
 
@@ -41,7 +44,7 @@
 }
 
 .link-sidebar {
-  margin-left: -5px;
+  margin-left: -15px;
   height: 40px;
   display: flex;
   flex-direction: row;
@@ -51,16 +54,25 @@
 
 .li-active {
   height: 40px;
+
   display: flex;
   align-items: center;
-  transition: 0.5 all ease-out;
+  transition: 0.5s all ease-out;
   padding: 0;
   cursor: pointer;
+  width: 94% !important;
+  left: 6px;
+  border-radius: 7px !important;
+  height: 40px;
+  margin-top: 5px !important;
 }
 
 .li-active p {
-  color: white;
-  font-weight: 400;
+  color: #1580f7;
+  font-weight: 800;
+  border-left: 1px solid #1477e771;
+  margin-left: 3px;
+  padding-left: 5px;
 }
 .listitem {
   height: 40px;
@@ -68,21 +80,27 @@
   align-items: center;
   transition: 0.5 all ease-out;
   padding: 0;
-
   cursor: pointer;
+  /* background: red !important; */
+  width: 94% !important;
+  left: 6px;
+  border-radius: 7px !important;
+  height: 40px;
+  margin-top: 5px !important;
 }
 
-.listitem:nth-child(6) {
+/* .listitem:nth-child(6) {
   list-style: none;
   height: 40px;
   display: flex;
   align-items: center;
-}
+} */
 .icon-sidebar {
-  color: #fff !important;
+  color: rgb(255, 255, 255) !important;
 }
+
 .txt-sidebar {
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 400;
   margin-left: 10px;
   color: white;
@@ -92,10 +110,6 @@
   animation-delay: 0.5s;
 }
 .txt-sidebar-mini {
-  font-size: 13px;
-  font-weight: 200;
-  margin-left: 10px;
-  color: #8f8e97;
   opacity: 0;
 }
 @keyframes texto-header-animation {
@@ -108,13 +122,45 @@
 }
 
 .cont-icon-sidebar {
-  background: #449af9;
-  min-width: 30px;
-  min-height: 30px;
-  border-radius: 4px;
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.5s all ease-in-out;
+}
+.cont-icon-sidebar::before {
+  content: "";
+  background: #449af9;
+  position: absolute;
+  min-width: 40px;
+  z-index: -1;
+  min-height: 40px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all ease-in-out;
+}
+.icon-sidebar-active {
+  color: #1580f7;
+  transition: 0.5s all ease-in-out;
+}
+.li-active div::before {
+  content: "";
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  min-height: 40px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all ease-in-out;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
 }
 
 .body-bottom {
