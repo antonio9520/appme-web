@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <clipPath id="clip-AppMe-Admin-Platform-Icon-Nombre-Usuario">
+      <rect width="110" height="110"/>
+    </clipPath>
+  </defs>
+  <g id="AppMe-Admin-Platform-Icon-Nombre-Usuario" clip-path="url(#clip-AppMe-Admin-Platform-Icon-Nombre-Usuario)">
+    <g id="_1828453" data-name="1828453" transform="translate(22.497 27.161)">
+      <path id="Trazado_1722" data-name="Trazado 1722" d="M99.053,27.449a13.721,13.721,0,1,1,13.721-13.721A13.736,13.736,0,0,1,99.053,27.449Zm0-23.325a9.6,9.6,0,1,0,9.6,9.6A9.615,9.615,0,0,0,99.053,4.124Zm0,0" transform="translate(-74.356 -0.008)" fill="#aab5c7" stroke="#fff" stroke-width="0.2"/>
+      <path id="Trazado_1723" data-name="Trazado 1723" d="M47.337,280.705H2.058A2.059,2.059,0,0,1,0,278.647v-9.6a13.05,13.05,0,0,1,13.035-13.035H36.36A13.05,13.05,0,0,1,49.4,269.042v9.6A2.059,2.059,0,0,1,47.337,280.705ZM4.116,276.589H45.279v-7.547a8.929,8.929,0,0,0-8.918-8.918H13.035a8.929,8.929,0,0,0-8.918,8.918Zm0,0" transform="translate(0 -223.078)" fill="#aab5c7" stroke="#fff" stroke-width="0.2"/>
+      <path id="Trazado_1724" data-name="Trazado 1724" d="M324.051,190.792H300.726a2.058,2.058,0,1,1,0-4.116h23.325a2.058,2.058,0,0,1,0,4.116Zm0,0" transform="translate(-260.249 -162.664)" fill="#aab5c7" stroke="#fff" stroke-width="0.2"/>
+      <path id="Trazado_1725" data-name="Trazado 1725" d="M396.729,127.379a2.059,2.059,0,0,1-1.455-3.515l9.522-9.522-9.522-9.522a2.059,2.059,0,0,1,2.912-2.911l10.977,10.977a2.059,2.059,0,0,1,0,2.912l-10.977,10.977A2.046,2.046,0,0,1,396.729,127.379Zm0,0" transform="translate(-343.904 -88.275)" fill="#aab5c7" stroke="#fff" stroke-width="0.2"/>
+    </g>
+  </g>
+</svg>

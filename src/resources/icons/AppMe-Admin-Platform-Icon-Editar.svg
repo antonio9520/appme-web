@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <clipPath id="clip-AppMe-Admin-Platform-Icon-Editar">
+      <rect width="110" height="110"/>
+    </clipPath>
+  </defs>
+  <g id="AppMe-Admin-Platform-Icon-Editar" clip-path="url(#clip-AppMe-Admin-Platform-Icon-Editar)">
+    <g id="_1159633" data-name="1159633" transform="translate(26.967 27.381)">
+      <path id="Trazado_601" data-name="Trazado 601" d="M160.237,2.816a8.725,8.725,0,0,0-12.339,0L113.307,37.407a1.939,1.939,0,0,0-.5.854L108.26,54.683a1.938,1.938,0,0,0,2.386,2.386l16.422-4.55a1.938,1.938,0,0,0,.854-.5l34.59-34.591a8.734,8.734,0,0,0,0-12.339ZM117.531,38.667l28.31-28.311,9.13,9.13L126.661,47.8Zm-1.824,3.66L123,49.622l-10.09,2.8ZM159.77,14.689l-2.056,2.056-9.131-9.131,2.057-2.056a4.847,4.847,0,0,1,6.854,0l2.276,2.275A4.854,4.854,0,0,1,159.77,14.689Zm0,0" transform="translate(-108.19 -0.261)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

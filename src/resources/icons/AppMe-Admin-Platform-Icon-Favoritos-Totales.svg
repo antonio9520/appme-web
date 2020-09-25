@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <clipPath id="clip-AppMe-Admin-Platform-Icon-Favoritos-Totales">
+      <rect width="110" height="110"/>
+    </clipPath>
+  </defs>
+  <g id="AppMe-Admin-Platform-Icon-Favoritos-Totales" clip-path="url(#clip-AppMe-Admin-Platform-Icon-Favoritos-Totales)">
+    <g id="Grupo_19005" data-name="Grupo 19005" transform="translate(-3254.674 1346.199)">
+      <g id="_709543" data-name="709543" transform="translate(3278.5 -1320)">
+        <g id="Grupo_436" data-name="Grupo 436" transform="translate(0 0)">
+          <path id="Trazado_414" data-name="Trazado 414" d="M58.433,26.008a19.864,19.864,0,0,0-26.318-1.449,19.859,19.859,0,0,0-12.361-4.3A19.752,19.752,0,0,0,5.749,53.941L30.422,78.615a2.306,2.306,0,0,0,3.258,0L58.373,54a20.031,20.031,0,0,0,.06-27.992ZM55.1,50.754,32.054,73.725,9.009,50.681a15.1,15.1,0,0,1,10.745-25.81,15.33,15.33,0,0,1,10.763,4.416,2.3,2.3,0,0,0,3.242-.018,15.231,15.231,0,0,1,21.393-.019,15.418,15.418,0,0,1-.056,21.5Z" transform="translate(0 -20.259)" fill="#aab5c7"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

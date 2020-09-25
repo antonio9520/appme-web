@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <clipPath id="clip-AppMe-Admin-Platform-Icon-Pedidos-Realizados">
+      <rect width="110" height="110"/>
+    </clipPath>
+  </defs>
+  <g id="AppMe-Admin-Platform-Icon-Pedidos-Realizados" clip-path="url(#clip-AppMe-Admin-Platform-Icon-Pedidos-Realizados)">
+    <path id="_1442912" data-name="1442912" d="M54.282,24.58a2.727,2.727,0,0,1,0,3.978L34.553,47.428a3.037,3.037,0,0,1-4.159,0L21,38.445a2.726,2.726,0,0,1,0-3.978,3.035,3.035,0,0,1,4.158,0l7.312,6.994L50.123,24.58A3.037,3.037,0,0,1,54.282,24.58ZM75.284,36c0,19.9-16.838,36-37.642,36S0,55.9,0,36,16.838,0,37.642,0,75.284,16.106,75.284,36ZM69.4,36C69.4,19.212,55.2,5.626,37.642,5.626S5.882,19.215,5.882,36s14.207,30.378,31.76,30.378S69.4,52.794,69.4,36Zm0,0" transform="translate(18.009 19.901)" fill="#1580f7" stroke="#cfe4fb" stroke-width="1"/>
+  </g>
+</svg>

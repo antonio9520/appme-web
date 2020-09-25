@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <clipPath id="clip-AppMe-Admin-Platform-Icon-Despacho-Punto-A">
+      <rect width="110" height="110"/>
+    </clipPath>
+  </defs>
+  <g id="AppMe-Admin-Platform-Icon-Despacho-Punto-A" clip-path="url(#clip-AppMe-Admin-Platform-Icon-Despacho-Punto-A)">
+    <path id="Trazado_12265" data-name="Trazado 12265" d="M-373.666-13.5A22.359,22.359,0,0,0-396,8.834a22.287,22.287,0,0,0,3.334,11.744l17.729,24.475a1.861,1.861,0,0,0,1.581.88h.015a1.861,1.861,0,0,0,1.582-.9l17.277-24.752a22.307,22.307,0,0,0,3.15-11.442A22.359,22.359,0,0,0-373.666-13.5Zm12.3,24.145-2.483-1.911V19.071H-371.4v-6.3h-4.19v6.3h-7.887V8.735l-2.484,1.911-1.97-2.56,14.269-10.977,6.093,4.687V-.2h4.134V4.976l4.042,3.11Z" transform="translate(429 38.5)" fill="#1580f7"/>
+  </g>
+</svg>

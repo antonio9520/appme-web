@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <clipPath id="clip-AppMe-Admin-Platform-Icon-Correo-Usuario">
+      <rect width="110" height="110"/>
+    </clipPath>
+  </defs>
+  <g id="AppMe-Admin-Platform-Icon-Correo-Usuario" clip-path="url(#clip-AppMe-Admin-Platform-Icon-Correo-Usuario)">
+    <g id="_736168" data-name="736168" transform="translate(24.991 34.955)">
+      <g id="Grupo_1439" data-name="Grupo 1439" transform="translate(9.105 8.262)">
+        <g id="Grupo_1438" data-name="Grupo 1438">
+          <path id="Trazado_1726" data-name="Trazado 1726" d="M118.648,169.859l-9.969-11.721,8.855-5.052a1.8,1.8,0,1,0-1.787-3.133L97.4,160.419,79.057,149.953a1.8,1.8,0,1,0-1.787,3.133l8.855,5.052-9.969,11.721A1.8,1.8,0,1,0,78.9,172.2l10.41-12.239,7.195,4.1a1.8,1.8,0,0,0,1.787,0l7.195-4.1L115.9,172.2a1.8,1.8,0,1,0,2.748-2.337Z" transform="translate(-75.726 -149.716)" fill="#aab5c7"/>
+        </g>
+      </g>
+      <g id="Grupo_1441" data-name="Grupo 1441">
+        <g id="Grupo_1440" data-name="Grupo 1440">
+          <path id="Trazado_1727" data-name="Trazado 1727" d="M56.151,81H5.411A5.417,5.417,0,0,0,0,86.411v31.262a5.417,5.417,0,0,0,5.411,5.411h50.74a5.417,5.417,0,0,0,5.411-5.411V86.411A5.417,5.417,0,0,0,56.151,81Zm1.8,36.673a1.806,1.806,0,0,1-1.8,1.8H5.411a1.806,1.806,0,0,1-1.8-1.8V86.411a1.806,1.806,0,0,1,1.8-1.8h50.74a1.806,1.806,0,0,1,1.8,1.8Z" transform="translate(0 -81)" fill="#aab5c7"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

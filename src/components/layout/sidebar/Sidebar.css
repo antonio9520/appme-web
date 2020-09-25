@@ -19,7 +19,11 @@
   overflow: hidden;
 }
 .sidebar-body-mini {
-  padding-right: 10px;
+  padding-right: 13px;
+}
+
+.sidebar-body {
+  padding-right: 13px;
 }
 
 .contenedor-sidebar-mini img {
@@ -60,7 +64,7 @@
   transition: 0.5s all ease-out;
   padding: 0;
   cursor: pointer;
-  width: 94% !important;
+  width: 100% !important;
   left: 6px;
   border-radius: 7px !important;
   height: 40px;
@@ -144,8 +148,18 @@
   transition: 0.5s all ease-in-out;
 }
 .icon-sidebar-active {
-  color: #1580f7;
+  width: 25px;
+  stroke: #278af8;
+  fill: #278af8;
   transition: 0.5s all ease-in-out;
+  /* margin-left: 5px; */
+}
+.img-icon {
+  width: 25px;
+  stroke: white;
+  fill: white;
+  transition: 0.5s all ease-in-out;
+  /* margin-left: 5px; */
 }
 .li-active div::before {
   content: "";

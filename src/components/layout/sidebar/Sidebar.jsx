@@ -4,6 +4,8 @@ import { List, ListItem, Button } from "@material-ui/core";
 import { Dashboard } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 import logo from "../../../resources/img/Logotype-AppMe-White.png";
+// import dashboardIcon from "../../../resources/icons/AppMe-Admin-Platform-Icon-Dashboard-2.svg";
+import { DashBoardIcon, PedidosIcon } from "./svg";
 
 const Sidebar = (props) => {
   const [active, setActive] = useState("dashboard");
@@ -22,13 +24,15 @@ const Sidebar = (props) => {
           >
             <Link to="/" className="link link-sidebar">
               <div className="cont-icon-sidebar">
-                <Dashboard
+                {/* <img src={dashboardIcon} alt="dashboard icon" className="img-icon"/> */}
+                <DashBoardIcon active={active} />
+                {/* <Dashboard
                   className={
                     active === "dashboard"
                       ? "icon-sidebar-active"
                       : "icon-sidebar"
                   }
-                />
+                /> */}
               </div>
               <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
                 Dashboard
@@ -42,13 +46,7 @@ const Sidebar = (props) => {
           >
             <Link to="/pedidos" className="link link-sidebar">
               <div className="cont-icon-sidebar">
-                <Dashboard
-                  className={
-                    active === "pedidos"
-                      ? "icon-sidebar-active"
-                      : "icon-sidebar"
-                  }
-                />
+                <PedidosIcon active={active} />
               </div>
               <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
                 Pedidos

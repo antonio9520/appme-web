@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <clipPath id="clip-AppMe-Admin-Platform-Icon-Hora-Mayor-Compra">
+      <rect width="110" height="110"/>
+    </clipPath>
+  </defs>
+  <g id="AppMe-Admin-Platform-Icon-Hora-Mayor-Compra" clip-path="url(#clip-AppMe-Admin-Platform-Icon-Hora-Mayor-Compra)">
+    <g id="Grupo_19002" data-name="Grupo 19002" transform="translate(-3505.726 1344.274)">
+      <g id="Grupo_18863" data-name="Grupo 18863" transform="translate(3529.5 -1320)">
+        <g id="Grupo_18862" data-name="Grupo 18862">
+          <path id="Trazado_12244" data-name="Trazado 12244" d="M31.659,0A31.659,31.659,0,1,0,63.318,31.659,31.659,31.659,0,0,0,31.659,0Zm0,58.8A27.136,27.136,0,1,1,58.8,31.659,27.136,27.136,0,0,1,31.659,58.8Z" fill="#b0bacb"/>
+        </g>
+      </g>
+      <g id="Grupo_18865" data-name="Grupo 18865" transform="translate(3540.807 -1308.693)">
+        <g id="Grupo_18864" data-name="Grupo 18864">
+          <path id="Trazado_12245" data-name="Trazado 12245" d="M105.685,85.333a2.261,2.261,0,0,0-2.261,2.261v15.829H87.594a2.261,2.261,0,1,0,0,4.523h18.091a2.261,2.261,0,0,0,2.261-2.261V87.594A2.261,2.261,0,0,0,105.685,85.333Z" transform="translate(-85.333 -85.333)" fill="#b0bacb"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
