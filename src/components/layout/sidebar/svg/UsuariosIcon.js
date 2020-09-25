@@ -1,0 +1,41 @@
+import React from "react";
+
+export default ({ active }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 110 110"
+    version="1.1"
+    className={active === "usuarios" ? "icon-sidebar-active" : "img-icon"}
+  >
+    <defs>
+      {/* <clipPath id="clip-AppMe-Admin-Platform-Icon-Usuarios-1">
+        <rect width="110" height="110" />
+      </clipPath> */}
+    </defs>
+    <g
+      id="AppMe-Admin-Platform-Icon-Usuarios-1"
+      clip-path="url(#clip-AppMe-Admin-Platform-Icon-Usuarios-1)"
+    >
+      <g id="Grupo_1722" data-name="Grupo 1722" transform="translate(-304 -9)">
+        <path
+          id="Trazado_431"
+          data-name="Trazado 431"
+          d="M154.331,62.029a24.307,24.307,0,1,0-24.344-24.344A24.348,24.348,0,0,0,154.331,62.029Zm0-42.266a17.922,17.922,0,1,1-17.922,17.922A17.975,17.975,0,0,1,154.331,19.762Z"
+          transform="translate(204.997 7.585)"
+          //   fill="#1580f7"
+          //   stroke="#fff"
+          stroke-width="1.5"
+        />
+        <path
+          id="Trazado_432"
+          data-name="Trazado 432"
+          d="M3.211,374.68H87.743a3.188,3.188,0,0,0,3.211-3.211,30.579,30.579,0,0,0-30.542-30.542H30.542A30.579,30.579,0,0,0,0,371.468,3.188,3.188,0,0,0,3.211,374.68Zm27.331-27.331h29.87a24.1,24.1,0,0,1,23.9,20.909H6.646A24.168,24.168,0,0,1,30.542,347.348Z"
+          transform="translate(314 -267.056)"
+          //   fill="#1580f7"
+          //   stroke="#fff"
+          stroke-width="1.5"
+        />
+      </g>
+    </g>
+  </svg>
+);

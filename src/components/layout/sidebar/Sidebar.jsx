@@ -5,7 +5,16 @@ import { Dashboard } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 import logo from "../../../resources/img/Logotype-AppMe-White.png";
 // import dashboardIcon from "../../../resources/icons/AppMe-Admin-Platform-Icon-Dashboard-2.svg";
-import { DashBoardIcon, PedidosIcon } from "./svg";
+import {
+  DashBoardIcon,
+  PedidosIcon,
+  RepartidoresIcon,
+  ProductosIcon,
+  PromoIcon,
+  EncuestasIcon,
+  UsuariosIcon,
+  NotiIcon,
+} from "./svg";
 
 const Sidebar = (props) => {
   const [active, setActive] = useState("dashboard");
@@ -41,6 +50,34 @@ const Sidebar = (props) => {
           </ListItem>
           <ListItem
             button
+            onClick={() => setActive("repartidores")}
+            className={active === "repartidores" ? "li-active" : "listitem"}
+          >
+            <Link to="/repartidores" className="link link-sidebar">
+              <div className="cont-icon-sidebar">
+                <RepartidoresIcon active={active} />
+              </div>
+              <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
+                Repartidores
+              </p>
+            </Link>
+          </ListItem>
+          <ListItem
+            button
+            onClick={() => setActive("productos")}
+            className={active === "productos" ? "li-active" : "listitem"}
+          >
+            <Link to="/productos" className="link link-sidebar">
+              <div className="cont-icon-sidebar">
+                <ProductosIcon active={active} />
+              </div>
+              <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
+                Productos
+              </p>
+            </Link>
+          </ListItem>
+          <ListItem
+            button
             onClick={() => setActive("pedidos")}
             className={active === "pedidos" ? "li-active" : "listitem"}
           >
@@ -55,38 +92,12 @@ const Sidebar = (props) => {
           </ListItem>
           <ListItem
             button
-            onClick={() => setActive("productos")}
-            className={active === "productos" ? "li-active" : "listitem"}
-          >
-            <Link to="/productos" className="link link-sidebar">
-              <div className="cont-icon-sidebar">
-                <Dashboard
-                  className={
-                    active === "productos"
-                      ? "icon-sidebar-active"
-                      : "icon-sidebar"
-                  }
-                />
-              </div>
-              <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
-                Productos
-              </p>
-            </Link>
-          </ListItem>
-          <ListItem
-            button
-            onClick={() => setActive("promociones")}
-            className={active === "promociones" ? "li-active" : "listitem"}
+            onClick={() => setActive("promo")}
+            className={active === "promo" ? "li-active" : "listitem"}
           >
             <Link to="/promociones" className="link link-sidebar">
               <div className="cont-icon-sidebar">
-                <Dashboard
-                  className={
-                    active === "promociones"
-                      ? "icon-sidebar-active"
-                      : "icon-sidebar"
-                  }
-                />
+                <PromoIcon active={active} />
               </div>
               <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
                 Promociones
@@ -100,13 +111,7 @@ const Sidebar = (props) => {
           >
             <Link to="/encuestas" className="link link-sidebar">
               <div className="cont-icon-sidebar">
-                <Dashboard
-                  className={
-                    active === "encuestas"
-                      ? "icon-sidebar-active"
-                      : "icon-sidebar"
-                  }
-                />
+                <EncuestasIcon active={active} />
               </div>
               <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
                 Encuestas
@@ -120,13 +125,7 @@ const Sidebar = (props) => {
           >
             <Link to="/usuarios" className="link link-sidebar">
               <div className="cont-icon-sidebar">
-                <Dashboard
-                  className={
-                    active === "usuarios"
-                      ? "icon-sidebar-active"
-                      : "icon-sidebar"
-                  }
-                />
+                <UsuariosIcon active={active} />
               </div>
               <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
                 Usuarios
@@ -135,18 +134,12 @@ const Sidebar = (props) => {
           </ListItem>
           <ListItem
             button
-            onClick={() => setActive("notificaciones")}
-            className={active === "notificaciones" ? "li-active" : "listitem"}
+            onClick={() => setActive("noti")}
+            className={active === "noti" ? "li-active" : "listitem"}
           >
             <Link to="/notificaciones" className="link link-sidebar">
               <div className="cont-icon-sidebar">
-                <Dashboard
-                  className={
-                    active === "notificaciones"
-                      ? "icon-sidebar-active"
-                      : "icon-sidebar"
-                  }
-                />
+                <NotiIcon active={active} />
               </div>
               <p className={open ? "txt-sidebar-mini" : "txt-sidebar"}>
                 Notificaciones

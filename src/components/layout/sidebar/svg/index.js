@@ -5,6 +5,7 @@ import PromoIcon from "./PromoIcon";
 import EncuestasIcon from "./EncuestasIcon";
 import UsuariosIcon from "./UsuariosIcon";
 import NotiIcon from "./NotiIcon";
+import RepartidoresIcon from "./RepartidoresIcon";
 
 export {
   DashBoardIcon,
@@ -14,4 +15,5 @@ export {
   EncuestasIcon,
   UsuariosIcon,
   NotiIcon,
+  RepartidoresIcon,
 };
